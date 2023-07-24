@@ -1,0 +1,5 @@
+This is my little custom website that pulls up a random coffee and allows you 
+to create your own mini playlist to enjoy your coffee with.
+
+To login I created a dummy user that has his own secret token. username = user1      password = password1
+To change and edit your playlist it would have to be edited with a special id from mongoose database.

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Playlist Manager - Main</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <h1>Welcome to Coffee World!</h1>
+  <button id="fetchButton">Fetch Random Coffee</button>
+  <div id="coffeeData"></div>
+<body>
+  <nav>
+    <a href="index.html">Logout</a>
+  </nav>
+
+  <h1> Playlist Manager</h1>
+
+  <ul id="playlists"></ul>
+
+  <form id="create-form">
+    <h2>Create playlist</h2>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter Name"><br>
+    <label for="description">Description:</label><br>
+    <input type="text" id="description" name="description" placeholder="Enter Description"><br>
+    <input type="submit" value="Create Playlist">
+  </form>
+
+  <form id="update-form">
+    <h2>Update playlist</h2>
+    <label for="update-id">ID:</label><br>
+    <input type="text" id="update-id" name="update-id" placeholder="Enter Playlist ID"><br>
+    <label for="update-name">New Name:</label><br>
+    <input type="text" id="update-name" name="update-name" placeholder="Update Playlist"><br>
+    <label for="update-description">New Description:</label><br>
+    <input type="text" id="update-description" name="update-description" placeholder="Update Description"><br>
+    <input type="submit" value="Update Playlist">
+  </form>
+
+  <form id="delete-form">
+    <h2>Delete playlist</h2>
+    <label for="delete-id">ID:</label><br>
+    <input type="text" id="delete-id" name="delete-id" placeholder="Enter Playlist ID"><br>
+    <input type="submit" value="Delete Playlist">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
